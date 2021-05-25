@@ -11,15 +11,6 @@ section{
     padding: 20px;
 }
 
-section .alert{
-    background-color: #99d98c;
-    border-radius: 5px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px;
-    width: 40%;
-}
-
 section .form_data{
     padding: 20px 20px 60px 20px;
     margin: 20px auto 0px auto;

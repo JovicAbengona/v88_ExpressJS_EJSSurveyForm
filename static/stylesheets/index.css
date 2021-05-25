@@ -63,11 +63,3 @@ section .submit{
     border: none;
     width: 30%;
 }
-
-section form p{
-    margin-bottom: 10px;
-    font-style: italic;
-    text-align: right;
-    color: #e76f51;
-    font-size: 14px;
-}
