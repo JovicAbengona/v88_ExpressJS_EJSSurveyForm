@@ -1,17 +1,11 @@
 var express = require("express");
 var app = express();
-var session = require("express-session");
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static(__dirname + "/static"));
 app.set('views', __dirname + '/views'); 
 app.set('view engine', 'ejs');
-app.use(session({
-    secret: "secret-key",
-    resave: false,
-    saveUninitialized: false,
-}));
 
 app.get("/", function(request, response){
     response.render("index");
